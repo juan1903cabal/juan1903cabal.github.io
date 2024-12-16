@@ -1,321 +1,210 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>San José de Chiquitos</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
-<body background="fondo.png" >
-   
-<!-- TIUTLO -->
+<body id="volver">
+    <!-- Barra de Navegación -->
+    <nav class="navbar"  >
+        <ul class="navbar-links" >
+            <li><a href="#introduccion">Conoce</a></li>
+            <li><a href="#historia">Historia</a></li>
+            <li><a href="#turismo">Turismo</a></li>
+            <!-- <li><a href="#economia">Economía</a></li> -->
+            <li><a href="#ubicacion">Ubicación</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#calculadora">Calculadora</a></li>
+        </ul>
+        <div >
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        </div>
+    </nav>
 
-    <table width="100%" border="1" bgcolor="#006400" >
-        <tr>
-            <td align="center">
-                <img src="bolivar.png" alt="Izquierda" width="80">
-            </td>
+<!-- Carrusel de Imágenes -->
 
-            <td width="50%" >
-                <font color="white">
-                    <marquee behavior="scroll" direction="left">
-                        <center>
-                            <!-- <h1  >PARTIDO </h1> -->
-                            <h1  >BOLIVAR VS STRONGEST</h1>
-                        </center>                        
-                    </marquee>
-                </font>
-            </td>
-
-            <td align="center">
-                <img src="strongest.png" alt="Derecha" width="80">
-            </td>
-        </tr>
-    </table>
-
-<!-- IMAGEN MOVIL -->
-    <font color="white">
-
-        <h3>1.- DISFRUTE DEL PARTIDO (IMAGEN MOVIL)</h3>
-    </font>
-
-    <table width="100%">
-        <tr>
-            <td width="50%">
-                <marquee behavior="scroll" direction="right">
-                    <img src="movil.png" alt="imagen" height="100">            
-                </marquee>
-            </td>
-            <td  width="50%">
-                <marquee behavior="scroll" direction="left">
-                    <img src="movil.png" alt="imagen" height="100">            
-                </marquee>
-            </td>
-        </tr>
-    </table>
-
-    <!-- LINKS -->
-
-    <font color="white">
-
-        <h3>2.- PUEDE VER MÁS DEL PARTIDO EN LOS SIGUIENTES LINKS (5 LINKS)</h3>
-    
-
-        <em>- Enlace 1: </em> <a href="https://www.msn.com/es-pe/noticias/other/bol%C3%ADvar-vs-the-strongest-en-vivo-por-tigo-sports-a-qu%C3%A9-hora-juega-canal-y-d%C3%B3nde-ver-el-cl%C3%A1sico/ar-AA1vrvkE?ocid=BingNewsSerp" target="_blank">click aqui</a><br>
-
-        <em>- Enlace 2: </em> <a href="https://eldeber.com.bo/futbol/bolivar-y-the-strongest-recuperan-jugadores-claves-para-el-clasico-paceno_394448" target="_blank">click aqui</a><br>
-
-        <em>- Enlace 3: </em> <a href="https://www.bolivia.com/futbol/liga-boliviana/conoce-como-ganar-10000-bolivianos-durante-el-superclasico-nacional-496869" target="_blank">click aqui</a><br>
-        <em>- Enlace 4: </em> <a href="https://www.atb.com.bo/2024/12/07/the-strongest-llega-entero-al-clasico-y-bolivar-con-bajas/" target="_blank">click aqui</a><br>
-        <em>- Enlace 5: </em> <a href="https://www.tycsports.com/bolivia/futbol-de-bolivia/bolivar-vs-the-strongest-en-vivo-que-canal-lo-pasa-por-tv-y-como-ver-online-id622783.html" target="_blank">click aqui</a><br>
-    
-    </font>
+    <div class="carousel" >
+        <div class="carousel-track">
+            <img src="imagenes/carousel1.jpg" alt="Imagen 1">
+            <img src="imagenes/carousel22.jpg" alt="Imagen 2">
+            <img src="imagenes/carousel33.jpg" alt="Imagen 3">
+            <img src="imagenes/carousel44.jpg" alt="Imagen 4">
+            <img src="imagenes/carousel55.jpg" alt="Imagen 5">
+        </div>
+        <div class="carousel-title">SAN JOSÉ DE CHIQUITOS</div>
+    </div>
 
 
+    <!-- Sección de Introducción -->
+    <section id="introduccion">
+        <div class="card">
 
-    <!-- CAPTURAS DE VIDEO -->
+            <div class="imagen-izq">
+                <img src="imagenes/introduccion.jpeg" alt="">
+            </div>
+            <div class="relleno-der">
+                <h3> Conoce mas de esta poblacion</h3>
+                <p>San José de Chiquitos es conocido principalmente por ser uno de los pueblos de las Misiones de Chiquitos nombrado como Patrimonio Mundial y por ser el único de dichos pueblos en tener un templo misional construido integralmente en piedra. También, entre la población local, por ser el lugar donde originalmente se fundó la ciudad de Santa Cruz de la Sierra.<br><br>
 
+                Con todos estos reconocimientos, San José se convirtió en un destino turístico con un legado histórico cultural muy fuerte y poco a poco sus pobladores comenzaron a ofrecer servicios para que los visitantes encuentren nuevas opciones gastronómicas y de actividades.  
+                </p>
+                <a href="#volver" class="button button-1">Volver</a>
+            </div>
+        </div>        
+    </section>
 
-    <font color="white">
-        <h3>3.- SIGUE EL PARTIDO MINUTO A MINUTO (20 CAPTURAS)</h3>
-    </font>
+    <!-- Sección de HIstoria -->
+    <section id="historia">
+        <div class="card">            
+            <div class="relleno-izq">
+                <h3> Historia</h3>               
+                <form>                    
+                    <textarea id="comentarios" name="comentarios" >San José de Chiquitos posee una historia rica y multifacética que se remonta al siglo XVII, cuando los misioneros jesuitas llegaron a la región con el objetivo de evangelizar a las comunidades indígenas. Fundada el 23 de abril de 1696, la misión de San José de Chiquitos se estableció como parte de una red de misiones que abarcaban el Chiquitania, una vasta región que hoy pertenece al departamento de Santa Cruz, Bolivia. Los jesuitas no solo se enfocaron en la difusión de la fe cristiana, sino que también promovieron el desarrollo agrícola, la educación y la organización social entre los pueblos guaraníes y otras etnias locales. Este esfuerzo misionero resultó en la creación de una comunidad próspera y bien estructurada, caracterizada por la construcción de impresionantes edificaciones religiosas y la implementación de técnicas agrícolas avanzadas para la época.
 
-    <table border="1" width="100%">
+                    Durante la época colonial, San José de Chiquitos se consolidó como un importante centro cultural y económico dentro de las misiones jesuíticas. Las iglesias y los edificios administrativos, construidos con materiales locales y decorados con detalles artísticos únicos, reflejan una fusión de estilos europeos y tradiciones indígenas. Esta arquitectura distintiva no solo servía como lugar de culto, sino también como símbolo de la convivencia y la colaboración entre los misioneros y las comunidades locales. Además, la misión se destacó por su sistema educativo, que incluía escuelas para niños y adultos, donde se enseñaban no solo conocimientos religiosos, sino también habilidades prácticas como la agricultura, la carpintería y la artesanía. Este enfoque integral permitió el florecimiento de una sociedad organizada y autosuficiente, dejando un legado cultural que perdura hasta hoy.
+                        
+                    Con la expulsión de los jesuitas en 1767 por orden del rey Carlos III de España, las misiones de Chiquitos, incluida San José, enfrentaron un periodo de incertidumbre y cambios significativos. A pesar de la ausencia de los misioneros, la comunidad logró mantener su estructura y continuar con sus actividades económicas y culturales. Durante el proceso de independencia de Bolivia en el siglo XIX, San José de Chiquitos jugó un papel relevante como punto estratégico y de resistencia contra las fuerzas coloniales. La misión y sus habitantes participaron activamente en los movimientos independentistas, contribuyendo a la formación de una identidad boliviana basada en la diversidad cultural y la resistencia ante la dominación extranjera. Este periodo marcó el inicio de una nueva etapa para San José, donde la misión dejó de ser controlada por órdenes religiosas y pasó a formar parte del territorio soberano de Bolivia.
+                        
+                    En el siglo XX y XXI, San José de Chiquitos ha experimentado una revitalización de su patrimonio histórico y cultural, convirtiéndose en un referente turístico y cultural dentro de Bolivia. La restauración de la iglesia de San José y otros edificios coloniales ha permitido preservar la herencia jesuítica, atrayendo a visitantes nacionales e internacionales interesados en la historia y la arquitectura de las misiones. Además, la comunidad local ha mantenido vivas las tradiciones culturales a través de festivales, danzas y artesanías que reflejan la mezcla de influencias europeas e indígenas. Este renacimiento cultural no solo ha fortalecido la identidad local, sino que también ha impulsado el desarrollo económico mediante el turismo, asegurando que la rica historia de San José de Chiquitos continúe siendo una fuente de orgullo y prosperidad para sus habitantes.</textarea>
+                  </form>
+                <a href="#volver" class="button button-2">Volver</a>
+            </div>
+            <div class="imagen-der">
+                <img src="imagenes/historia.jpeg" alt="">
+            </div>
+        </div>        
+    </section>
 
-        
+    <!-- Sección de Turismo -->
+    <section id="turismo">
+        <div class="card">
 
+            <div class="imagen-izq">
+                <!-- <img src="imagenes/turismo.jpg" alt=""> -->
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/m6evjpsJ3g4?si=LHsBhfkQtCIpQuuR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="relleno-der">
+                <h3> Turismo</h3>
+                <p>El turismo es uno de los sectores más importantes en el desarrollo económico de San José de Chiquitos. La ciudad es conocida por su impresionante patrimonio cultural, siendo la iglesia de San José uno de los principales atractivos. Esta iglesia, junto con otras construcciones religiosas cercanas, forman parte de un circuito turístico que incluye las misiones jesuíticas de la región. Además de su patrimonio arquitectónico, la ciudad es famosa por su conexión con la naturaleza y sus paisajes de gran belleza. <br><br>
 
+                San José de Chiquitos está rodeada por áreas naturales de gran valor, como el Parque Nacional Kaa-Iya y la Reserva Forestal de San Matías. Estos lugares ofrecen oportunidades para realizar ecoturismo, con actividades como caminatas, observación de fauna y flora, y visitas a comunidades indígenas locales. La región es hogar de una variedad de especies de animales y plantas, lo que la convierte en un destino ideal para los amantes de la naturaleza y la biodiversidad. 
+                </p>
+                <a href="#volver" class="button button-3">Volver</a>
+            </div>
+        </div>        
+    </section>
 
-
-
-        <!-- GOLES -->
-
-        <tr bgcolor="green">
-            <td colspan="12" align="center">
-                <h4> GOLES DEL EQUIPO BOLIVAR</h4>
-            </td>
-        </tr>
-
-        <tr>
-            <td colspan="2">
-                <img src="transparente.png" alt="Imagen Fila 6" width="100%">                
-            </td>
-            
-            <td colspan="2">
-                <img src="gol2.png" alt="Imagen Fila 6" width="100%">                
-            </td>
-            <td colspan="2">
-                <img src="gol3.png" alt="Imagen Fila 6" width="100%" >                
-            </td>
-            <td colspan="2">
-                <img src="gol4.png" alt="Imagen Fila 6" width="100%">                
-            </td>
-            <td colspan="2">
-                <img src="gol5.png" alt="Imagen Fila 6" width="100%">                
-            </td>
-
-            <td colspan="2">
-                <img src="transparente.png" alt="Imagen Fila 6" width="100%">                
-            </td>           
-                    
-        </tr>
-
-        <tr >
-            <td colspan="2" align="center" ></td>
-           
-            <td colspan="2" align="center"></td>
-        </tr>
-
-        <tr bgcolor="green">
-            <td colspan="12" align="center">
-                <h4> GOLES DEL EQUIPO STRONGEST</h4>
-            </td>
-        </tr>
-
-        <tr>
-            <td colspan="5">
-                <img src="transparente.png" alt="Imagen Fila 6" width="100%">                
-            </td>
-            
-            <td colspan="2">
-                <img src="gol1.png" alt="Imagen Fila 6" width="100%">                
-            </td>
-            
-
-            <td colspan="5">
-                <img src="transparente.png" alt="Imagen Fila 6" width="100%">                
-            </td>           
-                    
-        </tr>
-
-        <tr >
-            <td colspan="5" align="center" ></td>
-            <td colspan="2" align="center" bgcolor="#a4e455"> UNICO GOL DEL TIGRE</td>
-            <td colspan="5" align="center"></td>
-            
-        </tr>
-
-        <tr bgcolor="green">
-            <td colspan="12" align="center">
-                <h4> INICIO DEL PARTIDO</h4>
-            </td>
-        </tr>
-
-        <tr>
-            <td colspan="2">
-                <img src="ingreso4.png" alt="Imagen Fila 6" width="100%">                
-            </td>   
-            <td colspan="2">
-                <img src="ingreso1.jpg" alt="Imagen Fila 6" width="100%">                
-            </td>
-            
-            <td colspan="2" align="center">
-                <img src="ingreso2.png" alt="Imagen Fila 6" width="60%">                
-            </td>
-            <td colspan="2">
-                <img src="ingreso3.png" alt="Imagen Fila 6" width="100%">                
-            </td>
-            
-            <td colspan="2">
-                <img src="ingreso6.png" alt="Imagen Fila 6" width="100%">                
-            </td>   
-            <td colspan="2">
-                <img src="ingreso7.png" alt="Imagen Fila 6" width="100%">                
-            </td>         
-                    
-        </tr>
-
-        <tr >
-            
-            <td colspan="12" align="center" bgcolor="#a4e455">Ingreso de los jugadores al campo de juego</td>
-
-        </tr>
-
-
-        
-        <tr bgcolor="green">
-            <td colspan="12" align="center">
-                <h4> JUGADAS CASI GOL</h4>
-            </td>
-        </tr>
-
-        <tr>
-            <td colspan="2">
-                <img src="pgol1.png" alt="Imagen Fila 6" width="100%">                
-            </td>   
-            <td colspan="2">
-                <img src="pgol2.png" alt="Imagen Fila 6" width="100%">                
-            </td>
-            
-            <td colspan="2" >
-                <img src="pgol3.png" alt="Imagen Fila 6" width="100%">                
-            </td>
-            <td colspan="2">
-                <img src="pgol4.png" alt="Imagen Fila 6" width="100%">                
-            </td>
-            
-            <td colspan="2">
-                <img src="pgol5.png" alt="Imagen Fila 6" width="100%">                
-            </td>   
-            <td colspan="2">
-                <img src="pgol6.png" alt="Imagen Fila 6" width="100%">                
-            </td>         
-                    
-        </tr>
-
-        <tr >
-            
-            <td colspan="12" align="center" bgcolor="#a4e455">Posibles jugadas de gol</td>
-
-        </tr>
-
-        <tr bgcolor="green">
-            <td colspan="12" align="center">
-                <h4> FINAL DEL PARTIDOL</h4>
-            </td>
-        </tr>
-
-        <tr>
-            <td colspan="2">
-                <img src="transparente.png" alt="Imagen Fila 6" width="100%">                
-            </td>   
-            <td colspan="2">
-                <img src="fin1.png" alt="Imagen Fila 6" width="100%">                
-            </td>
-            
-            <td colspan="2" >
-                <img src="fin2.png" alt="Imagen Fila 6" width="100%">                
-            </td>
-            <td colspan="2">
-                <img src="fin3.png" alt="Imagen Fila 6" width="100%">                
-            </td>
-            
-             
-            <td colspan="2">
-                <img src="transparente.png" alt="Imagen Fila 6" width="100%">                
-            </td>         
-                    
-        </tr>
-
-        <tr >
-            
-            <td colspan="12" align="center" bgcolor="#a4e455">final del partido una victoria mas para el bolivar</td>
-
-        </tr>
-        
-        
-
-       
-        <!-- Fila 6: Imagen -->
-        
-    </table>
-
-    <font color="white">
-        <h3>4.- VIDEOS</h3>
-    </font>
-
-    <center>
-
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZQJ-YhEFzPM?si=gzWD-s3kxhkwEPuM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/yT5sP8ENb_I?si=24n0mYwAyfBJcaFP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    </center>
+    <!-- Sección de ubicacion -->
+    <section id="ubicacion">
+        <div class="card">
+            <div class="imagen-izq">                
+                <h3> Ubicacion</h3>
+                <p>La ciudad se encuentra a unos 600 km de Santa Cruz de la Sierra, la capital del departamento y una de las ciudades más grandes del país.
+                </p>
+                <a href="#volver" class="button button-4">Volver</a>
+            </div>
+            <div class="relleno-der">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d144517.88030625376!2d-60.74127976820955!3d-17.855375271442064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x938d03d4ba49905d%3A0x96acac6340d45410!2sSan%20JOSE%20DE%20CHIQUITOS!5e0!3m2!1ses-419!2sbo!4v1734375009921!5m2!1ses-419!2sbo" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+            </div>
+        </div>        
+    </section>
 
     
+<!-- --------- CALCULADORA ---------- -->
 
-
-
-
-    <font color="white">
-        <h3>5.- TABLA DE POSICIONES (GOOGLE SHEETS)</h3>
-    </font>
+<section >
+    <div class="container-calculator">
+        <h3> CALCULADORA</h3>
+        <div class="calculator">
+            <input type="text" id="display" disabled>
+            <div class="row">
+                <button class="button-c" onclick="clearDisplay()">C</button>
+                <button class="button-c" onclick="appendToDisplay('/')">/</button>
+                <button class="button-c" onclick="appendToDisplay('*')">*</button>
+                <button class="button-c" onclick="deleteLast()">←</button>
+            </div>
+            <div class="row">
+                <button class="button-c" onclick="appendToDisplay('7')">7</button>
+                <button class="button-c" onclick="appendToDisplay('8')">8</button>
+                <button class="button-c" onclick="appendToDisplay('9')">9</button>
+                <button class="button-c" onclick="appendToDisplay('-')">-</button>
+            </div>
+            <div class="row">
+                <button class="button-c" onclick="appendToDisplay('4')">4</button>
+                <button class="button-c" onclick="appendToDisplay('5')">5</button>
+                <button class="button-c" onclick="appendToDisplay('6')">6</button>
+                <button class="button-c" onclick="appendToDisplay('+')">+</button>
+            </div>
+            <div class="row">
+                <button class="button-c" onclick="appendToDisplay('1')">1</button>
+                <button class="button-c" onclick="appendToDisplay('2')">2</button>
+                <button class="button-c" onclick="appendToDisplay('3')">3</button>
+                <button class="button-c" onclick="calculateResult()">=</button>
+            </div>
+            <div class="row">
+                <button class="button-c" style="width: 145px;" onclick="appendToDisplay('0')">0</button>
+                <button class="button-c" onclick="appendToDisplay('.')">.</button>
+            </div>
+        </div> 
+    </div>
+      
     
-    <table width="100%">
+    
+    
+    
 
-        <tr>
-            <td></td>
-            
-            <td  width="80%" align="center">
-                <iframe 
-                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR8gknNB_HxDxcrhb3GXrZJDCKqLc1eXTmKn-66h5j9qbFuIEj6nbTZRMlzXNnoUuwDTDrM4WvC0lSy/pubhtml?gid=0&range=A1:J17&single=true&widget=true&headers=false" 
-                width="100%"
-                height="430"              
-                >
-                </iframe>
-            </td>
-            <td></td>
-        </tr>
-    </table>
+</section>
 
 
     
 
+    <!-- ------------- FOOTER----------- -->
+    <footer class="footer">
+        <div>
+            <p>&copy; 2024 San José de Chiquitos. Todos los derechos reservados UPDS.</p>
+            <p>Visítanos en nuestras redes sociales:</p>
+            <ul class="footer-social-media">
+                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
 
-
-
-
-
+    <script>
+        function appendToDisplay(value) {
+            document.getElementById('display').value += value;
+        }
     
+    
+        function clearDisplay() {
+            document.getElementById('display').value = '';
+        }
+    
+    
+        function deleteLast() {
+            var display = document.getElementById('display').value;
+            document.getElementById('display').value = display.slice(0, -1);
+        }
+    
+    
+        function calculateResult() {
+            var display = document.getElementById('display').value;
+            try {
+                document.getElementById('display').value = eval(display);
+            } catch (error) {
+                document.getElementById('display').value = 'Error';
+            }
+        }
+    </script>
+
+
 
 
 
